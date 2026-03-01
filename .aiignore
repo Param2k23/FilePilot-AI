@@ -1,0 +1,22 @@
+# .aiignore — CleanSlate AI ignore file
+#
+# List patterns (one per line) for files and folders that CleanSlate AI
+# should NEVER touch. Supports glob-style wildcards.
+#
+# Examples:
+#   *.key         → ignore all private key files
+#   Confidential  → ignore a folder named "Confidential"
+#   taxes_*       → ignore files starting with "taxes_"
+
+# Sensitive file types (recommended defaults)
+*.key
+*.pem
+*.p12
+*.pfx
+*.env
+*.secret
+
+# System / IDE folders
+.vscode
+.idea
+node_modules
